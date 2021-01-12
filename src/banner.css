@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opacity{
+    border-radius: 185px;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    opacity: 0.2;
+    background-color: #323232;
+    z-index: -1;
+
+}
+.banner img{
+    padding: 60px 0px;
+}
+.features{
+    justify-content: center;
+    display: flex;
+}
+.features p{
+    padding: 20px 30px;
+    background-color: #313131;
+    margin: 2px;
+    font-weight: 100px;
+    border-radius: 50px;
+    margin: 0px 0px 10px 0px;
+}
