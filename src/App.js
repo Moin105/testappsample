@@ -12,8 +12,14 @@ function App() {
                 <Banner/>
                 </div>
         <div className="feautres">
-        <Content name="start charge"/> <Content name="stop charge"/> <Content name="charge max range"/> <Content name="charge standard range"/>
-         <Content name="start hvac"/> <Content name="stop hvac"/> <Content name="wake up"/> <Content name="refresh data"/> 
+         <Content name="start charge"/> 
+         <Content name="stop charge"/>
+         <Content name="charge max range speed"/>
+         <Content name="charge standard range"/>
+         <Content name="start hvac"/>
+         <Content name="stop hvac"/>
+         <Content name="wake up"/>
+         <Content name="refresh data"/> 
         </div>        
         <div className="footer">
           <Footer/>
