@@ -4,6 +4,7 @@ import Banner from './banner.js';
 import Content from './content.js';
 import Footer from './footer';
 function App() {
+
   return (<div className="wrapper">
   <div className="header">
         <Header/>
@@ -12,14 +13,9 @@ function App() {
                 <Banner/>
                 </div>
         <div className="feautres">
-         <Content name="start charge"/> 
-         <Content name="stop charge"/>
-         <Content name="charge max range speed"/>
-         <Content name="charge standard range"/>
-         <Content name="start hvac"/>
-         <Content name="stop hvac"/>
-         <Content name="wake up"/>
-         <Content name="refresh data"/> 
+
+         <Content /> 
+        
         </div>        
         <div className="footer">
           <Footer/>
